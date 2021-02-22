@@ -1,0 +1,12 @@
+# Testing Requirements
+codecov==2.1.11
+mock==4.0.3
+pandas==1.2.2
+pytest==6.2.2
+pytest-cov==2.11.1
+
+# Databricks Connect
+databricks-connect==7.3.*
+
+# Internal Package
+-e databricks_pkg
