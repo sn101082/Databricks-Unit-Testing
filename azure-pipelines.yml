@@ -37,7 +37,7 @@ steps:
   displayName: "Configure DBConnect"
 
 - script: |
-    pytest -v databricks_pkg/ --doctest-modules --junitxml=unit-testresults.xml --cov=deployment/pkg/ --cov-append --cov-report=xml:coverage.xml --cov-report=html:htmlcov
+    pytest -v databricks_pkg/ --doctest-modules --junitxml=unit-testresults.xml --cov=databricks_pkg/ --cov-append --cov-report=xml:coverage.xml --cov-report=html:htmlcov
   displayName: 'Run databricks_pkg package unit tests'
 
 - task: PublishTestResults@2
