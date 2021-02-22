@@ -14,7 +14,7 @@ variables:
 name: 'Project CI Pipeline'
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-20.04'
 
 steps:
 - task: UsePythonVersion@0
